@@ -1,0 +1,16 @@
+.food{
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
+    position: relative;
+    
+}
+.food img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px ;
+    margin:7px;
+   }
+   .food-info{
+       margin: 0 14px;
+   }
