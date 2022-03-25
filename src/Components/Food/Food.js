@@ -16,7 +16,7 @@ const Food = (props) => {
             <p>price:{price}</p>
             
             </div>
-            <button onClick={()=>props.handleaddtocart(props.product)} className='btn-cart'>
+            <button onClick={()=>props.handleaddtocart(props.food)} className='btn-cart'>
                 <p >Add to cart</p>
              <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
 
