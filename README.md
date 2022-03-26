@@ -1,4 +1,4 @@
 # Samia's Packghor Food store
 
-Live site link [Create React App](https://samiaspackghor.netlify.app/).
+Live site link [Samia's packghor](https://samiaspackghor.netlify.app/).
 
