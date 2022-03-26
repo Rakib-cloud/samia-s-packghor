@@ -13,7 +13,7 @@ cart.map(food=>{
 })
 console.log(Math.floor(Math.random() * 4))
 
-
+//randome wise food selected work 
 function randomwise(cart){
     let randname='';
     console.log(cart)
@@ -30,13 +30,16 @@ function randomwise(cart){
     })
     
 }
+//choose again work 
+function chooseagin(){
 
+}
 
     return (
       
         
-        <div>
-             <div id='c' className='cart'>
+        <div className='cart'>
+             <div id='c' >
             <h3>Food order Summary</h3>
             <p>food length:{cart.length}</p>
             <h5>Order food list:</h5>
