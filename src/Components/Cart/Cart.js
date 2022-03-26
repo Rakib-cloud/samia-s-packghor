@@ -39,7 +39,7 @@ function randomwise(cart){
              <div id='c' className='cart'>
             <h3>Food order Summary</h3>
             <p>food length:{cart.length}</p>
-            <h5>order food list:</h5>
+            <h5>Order food list:</h5>
             <div>{cart.map(food =>
     <h2 key={food.id}>{food.name}</h2>
 )}</div>
