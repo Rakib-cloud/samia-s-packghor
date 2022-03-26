@@ -23,6 +23,7 @@ const Shop = () => {
 
     function chooseagain(){
         setCart([]);
+        document.getElementById('rand').innerHTML='';
     }
     return (
         <div className='shop-container'>

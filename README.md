@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Samia's Packghor Food store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link [Create React App](https://github.com/facebook/create-react-app).
 
