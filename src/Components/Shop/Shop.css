@@ -9,10 +9,25 @@
     margin: 100px 50px;
 }
 .cart-container{
-   background-color: grey;
+  
+    background-color: grey;
+    display: fixed;
+    position:0;
+}
+#cart-container{
+    display: sticky;
+    position: 0;
+    height: 800px;
+   
+    
 }
 @media screen and (max-width:1100px) {
     .food-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:500px) {
+    .food-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }

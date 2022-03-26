@@ -30,10 +30,7 @@ function randomwise(cart){
     })
     
 }
-//choose again work 
-function chooseagin(){
 
-}
 
     return (
       
@@ -41,18 +38,18 @@ function chooseagin(){
         <div className='cart'>
              <div id='c' >
             <h3>Food order Summary</h3>
-            <p>food length:{cart.length}</p>
+            <p>Your total selected food:{cart.length}</p>
             <h5>Order food list:</h5>
             <div>{cart.map(food =>
     <h2 key={food.id}>{food.name}</h2>
 )}</div>
 <button onClick={()=>{randomwise(cart)}}>Get one food</button>
            
-           <h2>Your selected food item :</h2>
+           <h2>Our Suggested food for you:</h2>
            <p id='rand'></p>
             
         </div>
-        <button >Choose again</button>
+        
         </div>
     );
 };

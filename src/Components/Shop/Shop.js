@@ -18,6 +18,12 @@ const Shop = () => {
    
     setCart(newCart);
     }
+
+    //choose agian works function 
+
+    function chooseagain(){
+        setCart([]);
+    }
     return (
         <div className='shop-container'>
             <div className='food-container'>
@@ -27,9 +33,10 @@ const Shop = () => {
                  </Food>)
              }
             </div>
-            <div className='cart-container'>
+            <div id='cart-container' className='cart-container'>
                 
              <Cart cart={cart}></Cart>
+             <button onClick={chooseagain} >Choose again</button>
             </div>
         </div>
 
